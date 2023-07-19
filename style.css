@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.pbtn:hover {
+    box-shadow: 2px 1px 21px 0px #ff42a5;
+}
+.main{
+    max-width: 90%;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/* mainsecton */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+
+}
+.navlogoimg{}
+.navlogoimg img {
+    height: 30px;
+    margin: 12px 15px 0 0;
+}
+.navlogtitle{}
+.navlogtitle h2 {
+    font-size: 2.4rem;
+}
+.navlogtitleS{
+    color: #ff42a5;
+}
+
+.navmenu{
+    display: flex;
+    gap: 20px;
+}
+.navmenu ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navmenu ul li{
+    list-style: none;
+}
+.navmenu ul li a{
+    text-decoration: none;
+    color: #3C354F;
+
+}
+.navmenu .youtik {
+    background: #e7e6e9;
+    padding: 8px;
+    border-radius: 5px;
+}
+.navmenu .youtik p{}
+.navmenu .youtik a{
+    margin-left: 10px;
+}
+.navmenu .youtik .tiktokk{
+    color: black;
+    font-size: 1.3rem;
+}
+.navmenu .youtik .youtube{
+    color: red;
+    font-size: 1.3rem;
+
+}
+
+/* bennarS */
+.bennarS{
+    background: #fcfbfe;
+}
+.bennarContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+    height: 410px;
+}
+.bennarContent{}
+.bennarText{
+    padding-top: 60px;
+}
+.bennarText h5 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bennarText h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #af52db;
+}
+.bennarText ul{
+    margin: 30px 0;
+}
+.bennarText ul li {
+    list-style: none;
+    color: #3C354F;
+    line-height: 1.5rem;
+}
+.bennarText ul li span{
+    margin-right: 1.3rem;
+    color: #ff42a5;
+}
+.pbtn {
+    background: #ff42a5;
+    border: none;
+    border-radius: 17px;
+    padding: 12px 20px;
+    color: white;
+    transition: .5s;
+}
+.gobtn{
+    background: #4ec5f7;
+    border: none;
+    border-radius: 17px;
+    padding: 12px 20px;
+    color: white;
+    margin-left: 20px;
+}
+.bennarText {}
+.bennarIMG {
+    width: 430px;
+    /* background-image: url(./images/Group\ 18.png);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+.bennarIMG img{
+    max-height: 100%;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    nav,
+    .navmenu,
+    .bennarContent
+    {
+        flex-direction: column;
+    }
+    .bennarContent{
+        text-align: center;
+    }
+    
+}
