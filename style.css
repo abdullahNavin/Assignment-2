@@ -290,6 +290,60 @@ nav{
     left: -70px;
 }
 
+/* gameSe */
+
+.gameSe {
+    margin-top: 135px;
+}
+.gameC{}
+.game1C{
+    display: flex;
+}
+.game1C img{
+    height: 30px;
+    width: 30px;
+}
+.game1C h6 {
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.game1{
+    display: flex;
+    justify-content: space-between;
+}
+.game2 {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    /* justify-content: space-between; */
+    margin-top: 25px;
+}
+.game2C{
+    display: flex;
+}
+.game2C img{
+    height: 30px;
+    width: 30px;
+}
+.game2C h6{
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left: 10px
+}
+.game1C:hover{
+    padding: 5px 10px;
+    color: #ff42a5;
+    border: 1px solid #ff42a5;
+    border-radius: 20px;
+}
+.game2C:hover{
+    padding: 5px 10px;
+    color: #ff42a5;
+    border: 1px solid #ff42a5;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 576px) {
     nav,
     .navmenu,
