@@ -7,7 +7,7 @@
     box-shadow: 2px 1px 21px 0px #ff42a5;
 }
 .main{
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
 }
 img{
@@ -140,17 +140,134 @@ nav{
     max-height: 100%;
 }
 
+/* WgamerS */
 
+.WgamerS{
+    background: #fff9fc;
+    margin-top: 20px;
+}
+.Wgamercontent{
+    display: flex;
+    justify-content: space-between;
+}
+.WGIMG{
+    width: 70%;
+}
+.WGtext {
+    width: 30%;
+    text-align: right;
+    margin-top: 56px;
+}
+.WGtext h1 {
+    color: #ff42a5;
+}
+.WGtext p {
+    color: #534C64;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.WGtext small {
+    margin: 14px 0;
+    display: inline-block;
+}
+.WGtext h4 {
+    color: #534C64;
+    font-size: 20px;
+}
+
+/* onlineS */
+
+.onlineS{}
+.onlineH{
+    text-align: center;
+}
+.onlineH h1{
+    font-size: 2.3rem;
+}
+.onlineSpan{
+    color: #b551d7;
+}
+.onlineH p{
+    color: #534C64;
+    margin: 20px 0;
+}
+
+.funnyVS{
+    display: flex;
+    gap: 20px;
+}
+.funnySC{
+    width: calc((100% - 20px) / 4);
+
+}
+.funnySC p{
+    color: #534C64;
+    margin-top: 15px;
+}
+.funnyimg{
+    position: relative;
+}
+.fimgHover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: hwb(0deg 8% 90% / 55%);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.funnyimg:hover .fimgHover{
+    visibility: visible;
+    opacity: 1;
+}
+.fimgHover p{
+    color: red;
+}
+.fimgHover a{
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+/* .funnyimg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: hwb(0deg 8% 90% / 55%);
+    height: 100%;
+    width: 100%;
+    color: red;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+} */
+/* .funnyimg:hover::after{
+    visibility: visible;
+    opacity: 1;
+} */
 
 @media screen and (max-width: 576px) {
     nav,
     .navmenu,
-    .bennarContent
+    .bennarContent,
+    .Wgamercontent,
+    .funnyVS
     {
         flex-direction: column;
     }
-    .bennarContent{
+    .WgamerS{
+        display: none;
+    }
+    .bennarContent,
+    .funnyVS
+    {
         text-align: center;
     }
-    
 }
