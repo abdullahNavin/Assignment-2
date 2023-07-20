@@ -253,6 +253,43 @@ nav{
     opacity: 1;
 } */
 
+/* playS */
+.playC{
+    display: flex;
+}
+.playS{
+    height: 370px;
+    margin-top: 60px;
+}
+.playtextS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playtext{
+    text-align: right;
+    width: 50%;
+}
+.playtext h1{}
+.playtext span{
+    color: #d957ba;
+}
+.playtext p{
+    color: #534C64;
+}
+.playImg{
+    width: 50%;
+    height: 370px;
+
+}
+.playImg2 {
+    height: 190px;
+    width: 170px;
+    position: relative;
+    top: -156px;
+    left: -70px;
+}
+
 @media screen and (max-width: 576px) {
     nav,
     .navmenu,
