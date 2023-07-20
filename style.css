@@ -293,7 +293,7 @@ nav{
 /* gameSe */
 
 .gameSe {
-    margin-top: 135px;
+    margin: 135px 0;
 }
 .gameC{}
 .game1C{
@@ -342,6 +342,84 @@ nav{
     color: #ff42a5;
     border: 1px solid #ff42a5;
     border-radius: 20px;
+}
+
+/* footer */
+
+.footerC{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+footer{
+    background: #0b0223;
+    padding: 60px 20px;
+}
+.footerH{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.FSH img {
+    height: 23px;
+    width: 40px;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+footer h1{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+.Foh1S{
+    color: #ff42a5;
+}
+.footermenu{
+    color: white;
+}
+.footermenu ul{
+    display: flex;
+    gap: 20px;
+}
+.footermenu ul li{
+    list-style: none;
+}
+.FsocialMenu{
+    color: white;
+    margin: 30px 0;
+}
+.FsocialMenu ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.FsocialMenu ul li{
+    list-style: none;
+}
+.FsocialMenu ul li a{
+    color: white;
+    font-size: 30px;
+}
+.footerTrams{}
+.footerTrams ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #ffffff99;
+}
+.footerTrams ul li{
+    list-style: none;
+    font-size: 10px;
+}
+.FooterCopyR{
+    text-align: center;
+    margin-top: 20px;
+}
+.FooterCopyR p{
+    color: #ffffff99;
+    font-size: 10px;
+
 }
 
 @media screen and (max-width: 576px) {
